@@ -1,0 +1,61 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    var div = $("div");  
+    div.animate({left: '100px'}, "slow");
+    div.animate({fontSize: '3em'}, "slow");
+  });
+});
+</script> 
+<style>
+body {background-color: powderblue;}
+p    {color: blue;}
+</style>
+
+</head>
+<body>
+
+<ol>
+  <li>NAME=MANPREET SINGH</li>
+  <li>ID=C0731786</li>
+  <li>COURSE=Emerging Technologies </li>
+</ol> 
+<div style="background:#98bf21;height:50px;width:120px;position:absolute;">HOBBY</div>
+<h1>_____________________</h1>
+
+<button id="ANIMATE">ANIMATE</button>
+
+
+
+
+<p>My favourite hobby is reading. I enjoy reading a book when I am free. I 
+started to do it when I was four years old. The first time I did it, I felt interested. So I 
+kept reading. The teachers always taught me to read the difficult words. I was happy 
+when I read a story with a happy ending. I was thrilled when I read a detective story.  </p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
